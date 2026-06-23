@@ -1,0 +1,5 @@
+# Tsumu Light (SLPS-02253) — function-start seeds.
+# One 0x-prefixed KSEG0 address per line. '#' lines ignored. The recompiler
+# also discovers functions dynamically from entry_pc, so this only needs
+# entries the walker can't reach (indirect/overlay targets).
+0x800691F0
