@@ -16,8 +16,15 @@ strict = true
 [runtime]
 debug_port = 4510
 window_title = "Tsumu Light Recompiled"
-controller = "digital"
+# Present a DualShock so the DualSense/gamepad + keyboard reliably handshake and
+# deliver input (the plain digital-pad path wasn't delivering input to the game).
+# Tsumu is a digital game and just reads the digital buttons off the pad.
+controller = "dualshock"
 memcard_dir = "saves"
+
+[controller]
+default_mode = "digital"   # DualShock present, but default to digital pad reporting (Tsumu is a digital game)
+lock_mode    = true        # single pad type; no launcher selector
 
 # ── Audit-specific config (consumed by psxrecomp/tools/*.py and tests) ──
 # Schema mirrors psxrecomp/bios/SCPH1001.toml. Paths are relative to the
