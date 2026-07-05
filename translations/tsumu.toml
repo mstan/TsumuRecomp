@@ -694,3 +694,422 @@ src_hex = "b182cc82588365835b815783cd824181feffce90ec90a78ccc82528e7b965f8db382f
 term = "ffff"
 en = "This stage is by\nHiroshi Yamamoto\nof Ishikawa.\f\nOne of the finest of all\nentries. Just give it a\ntry.\f\nOnce you notice it,\nyou'll surely solve it."
 
+
+# --- Per-glyph level/stage-name labels (RAM source-patch layer) ---
+# Fixed-stride 26-byte (13-cell) slots in the EXE stage-name table
+# 0x80070300..0x800708FE, LE Shift-JIS, fullwidth-space padded. Drawn
+# per-glyph (no terminator) so unreachable by the message hook -> patched
+# in RAM once resident, verified against src_hex before writing. width=26.
+
+[[glyph_label]]
+addr    = 0x80070300
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825082"
+src_jp  = "ちゅーとりあるの１"
+en = "TUTORIAL 1"
+
+[[glyph_label]]
+addr    = 0x8007031A
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825182"
+src_jp  = "ちゅーとりあるの２"
+en = "TUTORIAL 2"
+
+[[glyph_label]]
+addr    = 0x80070334
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825282"
+src_jp  = "ちゅーとりあるの３"
+en = "TUTORIAL 3"
+
+[[glyph_label]]
+addr    = 0x8007034E
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825382"
+src_jp  = "ちゅーとりあるの４"
+en = "TUTORIAL 4"
+
+[[glyph_label]]
+addr    = 0x80070368
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825482"
+src_jp  = "ちゅーとりあるの５"
+en = "TUTORIAL 5"
+
+[[glyph_label]]
+addr    = 0x80070382
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825582"
+src_jp  = "ちゅーとりあるの６"
+en = "TUTORIAL 6"
+
+[[glyph_label]]
+addr    = 0x8007039C
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825682"
+src_jp  = "ちゅーとりあるの７"
+en = "TUTORIAL 7"
+
+[[glyph_label]]
+addr    = 0x800703B6
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825782"
+src_jp  = "ちゅーとりあるの８"
+en = "TUTORIAL 8"
+
+[[glyph_label]]
+addr    = 0x800703D0
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc825882"
+src_jp  = "ちゅーとりあるの９"
+en = "TUTORIAL 9"
+
+[[glyph_label]]
+addr    = 0x800703EA
+width   = 26
+src_hex = "bf82e3825b81c682e882a082e982cc8250824f82"
+src_jp  = "ちゅーとりあるの１０"
+en = "TUTORIAL 10"
+
+[[glyph_label]]
+addr    = 0x80070404
+width   = 26
+src_hex = "d3829f825b81b782c682b782c4825b81b682"
+src_jp  = "ふぁーすとすてーじ"
+en = "FIRST STAGE"
+
+[[glyph_label]]
+addr    = 0x8007041E
+width   = 26
+src_hex = "b982a982f182c782b782c4825b81b682"
+src_jp  = "せかんどすてーじ"
+en = "SECOND STAGE"
+
+[[glyph_label]]
+addr    = 0x80070438
+width   = 26
+src_hex = "b3825b81c782b782c4825b81b682"
+src_jp  = "さーどすてーじ"
+en = "THIRD STAGE"
+
+[[glyph_label]]
+addr    = 0x80070452
+width   = 26
+src_hex = "c682e882a082a682b8824881"
+src_jp  = "とりあえず？"
+en = "FOR NOW?"
+
+[[glyph_label]]
+addr    = 0x8007046C
+width   = 26
+src_hex = "b682e382b882c282c882ac82"
+src_jp  = "じゅずつなぎ"
+en = "BEAD CHAIN"
+
+[[glyph_label]]
+addr    = 0x80070486
+width   = 26
+src_hex = "a982f182bd82f182a982f182bd82f182"
+src_jp  = "かんたんかんたん"
+en = "EASY EASY"
+
+[[glyph_label]]
+addr    = 0x800704A0
+width   = 26
+src_hex = "d7825b81b582c182ad82"
+src_jp  = "べーしっく"
+en = "BASIC"
+
+[[glyph_label]]
+addr    = 0x800704BA
+width   = 26
+src_hex = "c682c982a982ad82cd82b182d482"
+src_jp  = "とにかくはこぶ"
+en = "JUST CARRY"
+
+[[glyph_label]]
+addr    = 0x800704D4
+width   = 26
+src_hex = "b982f182ca82ab82"
+src_jp  = "せんぬき"
+en = "UNCORK"
+
+[[glyph_label]]
+addr    = 0x800704EE
+width   = 26
+src_hex = "dd82c982df82a282b882"
+src_jp  = "みにめいず"
+en = "MINI MAZE"
+
+[[glyph_label]]
+addr    = 0x80070508
+width   = 26
+src_hex = "a482a582e982be82f182"
+src_jp  = "うぇるだん"
+en = "WELL DONE"
+
+[[glyph_label]]
+addr    = 0x80070522
+width   = 26
+src_hex = "ed825b81d582a082f182c782de82ab82"
+src_jp  = "わーぷあんどむき"
+en = "WARP & TURN"
+
+[[glyph_label]]
+addr    = 0x8007053C
+width   = 26
+src_hex = "a082b082b382b082"
+src_jp  = "あげさげ"
+en = "UP & DOWN"
+
+[[glyph_label]]
+addr    = 0x80070556
+width   = 26
+src_hex = "b982dc82a282ea82f182b582e382a482"
+src_jp  = "せまいれんしゅう"
+en = "TIGHT DRILL"
+
+[[glyph_label]]
+addr    = 0x80070570
+width   = 26
+src_hex = "ab82f182ac82e582"
+src_jp  = "きんぎょ"
+en = "GOLDFISH"
+
+[[glyph_label]]
+addr    = 0x8007058A
+width   = 26
+src_hex = "a082c882cd82c782b1824881"
+src_jp  = "あなはどこ？"
+en = "HOLE WHERE?"
+
+[[glyph_label]]
+addr    = 0x800705A4
+width   = 26
+src_hex = "c582b182da82b182"
+src_jp  = "でこぼこ"
+en = "BUMPY"
+
+[[glyph_label]]
+addr    = 0x800705BE
+width   = 26
+src_hex = "a882bf82c482ad82e982"
+src_jp  = "おちてくる"
+en = "FALLING"
+
+[[glyph_label]]
+addr    = 0x800705D8
+width   = 26
+src_hex = "ce82bd82d382e782a282"
+src_jp  = "ばたふらい"
+en = "BUTTERFLY"
+
+[[glyph_label]]
+addr    = 0x800705F2
+width   = 26
+src_hex = "e882c682e982d282e782dd82c182c782"
+src_jp  = "りとるぴらみっど"
+en = "LIL PYRAMID"
+
+[[glyph_label]]
+addr    = 0x8007060C
+width   = 26
+src_hex = "a282f182d782a282c782"
+src_jp  = "いんべいど"
+en = "INVADE"
+
+[[glyph_label]]
+addr    = 0x80070626
+width   = 26
+src_hex = "b582e182c682e982"
+src_jp  = "しゃとる"
+en = "SHUTTLE"
+
+[[glyph_label]]
+addr    = 0x80070640
+width   = 26
+src_hex = "b282bf82e182b282bf82e182"
+src_jp  = "ごちゃごちゃ"
+en = "JUMBLED"
+
+[[glyph_label]]
+addr    = 0x8007065A
+width   = 26
+src_hex = "dd82ac82a982e782d082be82e882"
+src_jp  = "みぎからひだり"
+en = "RIGHT-LEFT"
+
+[[glyph_label]]
+addr    = 0x80070674
+width   = 26
+src_hex = "a982c982c7825b81e782ad82"
+src_jp  = "かにどーらく"
+en = "CRAB FEAST"
+
+[[glyph_label]]
+addr    = 0x8007068E
+width   = 26
+src_hex = "d082bd82b782e782ab82e882a982a682b582"
+src_jp  = "ひたすらきりかえし"
+en = "SWITCH LOOP"
+
+[[glyph_label]]
+addr    = 0x800706A8
+width   = 26
+src_hex = "c282c882ed82bd82e882"
+src_jp  = "つなわたり"
+en = "TIGHTROPE"
+
+[[glyph_label]]
+addr    = 0x800706C2
+width   = 26
+src_hex = "c682a882dc82ed82e882"
+src_jp  = "とおまわり"
+en = "DETOUR"
+
+[[glyph_label]]
+addr    = 0x800706DC
+width   = 26
+src_hex = "a482e782a882e082c482"
+src_jp  = "うらおもて"
+en = "TWO SIDES"
+
+[[glyph_label]]
+addr    = 0x800706F6
+width   = 26
+src_hex = "a982e882d382a782e982c982a082"
+src_jp  = "かりふぉるにあ"
+en = "CALIFORNIA"
+
+[[glyph_label]]
+addr    = 0x80070710
+width   = 26
+src_hex = "be82a482f182"
+src_jp  = "だうん"
+en = "DOWN"
+
+[[glyph_label]]
+addr    = 0x8007072A
+width   = 26
+src_hex = "a882c682b582c482c882e782d782e982"
+src_jp  = "おとしてならべる"
+en = "DROP & LINE"
+
+[[glyph_label]]
+addr    = 0x80070744
+width   = 26
+src_hex = "e9825b81d582738267826482ed825b81d582"
+src_jp  = "るーぷＴＨＥわーぷ"
+en = "LOOP THE WARP"
+
+[[glyph_label]]
+addr    = 0x8007075E
+width   = 26
+src_hex = "cd82b182c982ed82"
+src_jp  = "はこにわ"
+en = "SANDBOX"
+
+[[glyph_label]]
+addr    = 0x80070778
+width   = 26
+src_hex = "b282a482a982ab82e182ad82b982f182"
+src_jp  = "ごうかきゃくせん"
+en = "CRUISE SHIP"
+
+[[glyph_label]]
+addr    = 0x80070792
+width   = 26
+src_hex = "c582b682e182d182e382"
+src_jp  = "でじゃびゅ"
+en = "DEJA VU"
+
+[[glyph_label]]
+addr    = 0x800707AC
+width   = 26
+src_hex = "bd82ed825b81"
+src_jp  = "たわー"
+en = "TOWER"
+
+[[glyph_label]]
+addr    = 0x800707C6
+width   = 26
+src_hex = "ad82e782b082"
+src_jp  = "くらげ"
+en = "JELLYFISH"
+
+[[glyph_label]]
+addr    = 0x800707E0
+width   = 26
+src_hex = "b982f182b582e182"
+src_jp  = "せんしゃ"
+en = "TANK"
+
+[[glyph_label]]
+addr    = 0x800707FA
+width   = 26
+src_hex = "b982cf82ea825b81c682"
+src_jp  = "せぱれーと"
+en = "SEPARATE"
+
+[[glyph_label]]
+addr    = 0x80070814
+width   = 26
+src_hex = "a882c482d982f182"
+src_jp  = "おてほん"
+en = "EXAMPLE"
+
+[[glyph_label]]
+addr    = 0x8007082E
+width   = 26
+src_hex = "b782e8825b81d482e882c182b682"
+src_jp  = "すりーぶりっじ"
+en = "THREE BRIDGE"
+
+[[glyph_label]]
+addr    = 0x80070848
+width   = 26
+src_hex = "c782b182c582cc82b982c882a882b7824881"
+src_jp  = "どこでのせなおす？"
+en = "RE-PLACE?"
+
+[[glyph_label]]
+addr    = 0x80070862
+width   = 26
+src_hex = "be82a282be82c182b582e382c282"
+src_jp  = "だいだっしゅつ"
+en = "GREAT ESCAPE"
+
+[[glyph_label]]
+addr    = 0x8007087C
+width   = 26
+src_hex = "e782b782c682b782c4825b81b682"
+src_jp  = "らすとすてーじ"
+en = "LAST STAGE"
+
+[[glyph_label]]
+addr    = 0x80070896
+width   = 26
+src_hex = "a882c682b582a082c882ad82f182ea82f182"
+src_jp  = "おとしあなくんれん"
+en = "PITFALL DRILL"
+
+[[glyph_label]]
+addr    = 0x800708B0
+width   = 26
+src_hex = "c682f182cb82e982ca82af82c482"
+src_jp  = "とんねるぬけて"
+en = "THRU TUNNEL"
+
+[[glyph_label]]
+addr    = 0x800708CA
+width   = 26
+src_hex = "cd82c882b382ad82a882a982"
+src_jp  = "はなさくおか"
+en = "FLOWER HILL"
+
+[[glyph_label]]
+addr    = 0x800708E4
+width   = 26
+src_hex = "eb82b682a482e782"
+src_jp  = "ろじうら"
+en = "BACK ALLEY"
