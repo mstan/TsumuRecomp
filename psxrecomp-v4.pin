@@ -1,2 +1,10 @@
+# 2026-07-05: FF wt/tsumu to facelifted master 80f4ed6 (OpenGL+Vulkan renderers,
+# native-wide 16:9, HLE boot tier, TCC overlay tier, CD-timing/FMV fixes, MMX5
+# bring-up). Regenerated game C against overlay codegen hash 0x7ea4ba61; shared
+# master SCPH1001 BIOS C reused. Prev pin: 6c8bc44.
+# 2026-07-05: STOOD UP — wt/tsumu now carries 3 foundation runtime fixes on top
+# of 80f4ed6: 2f48bf1 (RAM 4x mirror -> fixes PC=0 stack), 34da028 (cdrom Stop 0x08
+# -> fixes post-boot draw stall), c586bad (cdrom MotorOn 0x07 sibling gap). Renders
+# gameplay. These propagate to master in the coordinated cascade.
 branch=wt/tsumu
-sha=6c8bc44152a40d494b702d23ffc485e5081306b3
+sha=c586badcb46b408c87c15be4e8ceabab08266d99
