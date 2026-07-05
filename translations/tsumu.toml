@@ -1,30 +1,696 @@
 # Tsumu Light (SLPS-02253) - English translations. Framework: docs/STRING_TRANSLATION.md
-# Keyed by FNV-1a64 of the exact little-endian Shift-JIS source-record bytes.
+# Non-glyphed string-pointer message text (in-EXE message table, LE Shift-JIS).
+# Keyed by FNV-1a64 of the exact source-record bytes. \n=line break, \f=page, \r=prompt.
 schema = 1
 default_lang = "en"
 
 [[entry]]
-src_hex = "cc82b182e882cc825182f197cd82e38fa982e782feffc282df82e982e6824281"
+src_hex = "51835b818083c982c882ea82e982bd82df82cc82feffa982f182bd82f182c882fb974b8fc582b7824281feffdc82b882cd82b182b182a982e7824981"
 term = "ffff"
-en = "Stack the last 2\nrows from the top."
+en = "Simple practice to get\nused to the game.\nStart here!"
 
 [[entry]]
-src_hex = "86927e8eb582dc82b7824281"
+src_hex = "588365835b815783f0824e838a834183b582c482a282ad82feffc68241814991d782e982588365835b815783aa82d382a682feffdc82b7824281df82b482b9827282898393834e834981"
 term = "ffff"
-en = "Cancel."
+en = "Clear stages to unlock\nmore to choose from.\nAim for S rank!"
 
 [[entry]]
-src_hex = "dc82b782428130fcfeff5283938365836983f082e082c182bd82dc82dc82c582e082feff8f835b817683c582ab82e982e6824281"
+src_hex = "6f83628365838a835b81a790c08cc882b582c5824181feffcc825b81dc82e982b0825b81de82cc82588365835b815783fefff082a98e5297c98276838c834383c582ab82dc82b7824281"
 term = "ffff"
-en = "You can warp even\nwhile holding a\ncontainer."
+en = "Play the normal-game\nstages freely, with no\nbattery limit."
 
 [[entry]]
-src_hex = "be82e68230fcfeffc582e0824181bb82ea82be82c6827282898393834e83cd82feffc682ea82c882a282af82c782cb82"
+src_hex = "53915882588365835b815783cc8252835b815883f082feff4198b1914e838a834183b582c482a282ab82dc82b7824281feffbf82e582c182c682de82b882a982b582df824981"
 term = "ffff"
-en = "But you won't get\nan S rank that way."
+en = "Clear all 9 stages of\nthe course in a row.\nA bit tricky!"
 
 [[entry]]
-src_hex = "c5824181478aaa82c582ab82bd82e782feff4e838a834183c582b782428130fcfeff5283938365836983cd82a282bf82c782c982feff5182c282dc82c582e082c282b182c682aa82feffc582ab82dc82b7824281"
+src_hex = "b182ea82dc82c582cc82ac90d190f082feff818382838a835b814a835b816883c982feff5a835b817583b582dc82b7824281"
 term = "ffff"
-en = "When done, you clear.\nHold up to 2\ncontainers at once."
+en = "Save your records so\nfar to the memory\ncard."
+
+[[entry]]
+src_hex = "8c8378838b83f082feffb982f182bd82ad82b582c482cb824281"
+term = "ffff"
+en = "Please select\na level."
+
+[[entry]]
+src_hex = "588365835b815783f082feffb982f182bd82ad82b582c482cb824281"
+term = "ffff"
+en = "Please select\na stage."
+
+[[entry]]
+src_hex = "bb82ea82b682e1824181aa82f182ce82c182c482cb824981"
+term = "ffff"
+en = "Well then, do your best!"
+
+[[entry]]
+src_hex = "86835b8155835b81cc82dd82c882b382f182a982e782cc82feff9e89e595ec8dcc82a482bf8241814497478fc882feff5482ec8d6995f082fb8e5e98b582dc82b582bd824281"
+term = "ffff"
+en = "From the entries users\nsent in, we picked the\n5 best works."
+
+[[entry]]
+src_hex = "5283938365836983cd824181ba89cc82a082c882c982feff748348835b814e83f082b382b782c6829d8ec282b182c682feffaa82c582ab82dc82b782428130fcfeff9b817b835e839383c582748348835b814e83f082e38fba89feffb382b98241817e817b835e839383c5825283938365836983fefff0827592ad82b182c682aa82c582ab82dc82b782428130fcfeff738275838d8362834e83cc82e38fc9825283938365836983fefff0825e89f182c5824181478aaa82c582ab82bd82e782feff4e838a834183c582b782428130fcfeff5283938365836983cd82a282bf82c782c982feff5182c282dc82c582e082c282b182c682aa82feffc582ab82dc82b7824281"
+term = "ffff"
+en = "Put the fork into the\nhole beneath a container\nto pick it up.\f\nPress O to raise/lower\nthe fork, X to set the\ncontainer down.\f\nCarry containers onto the\nT-blocks; clear when the\npicture is complete.\f\nYou can hold up to\n2 containers at once."
+
+[[entry]]
+src_hex = "bb82a482bb82a4824181bb82cc82b292718e4981feffb682e18241819f8ecc82588365835b815783c982feff738dab82dc82b782cb824981"
+term = "ffff"
+en = "Nice, nice! That's it!\nOK, on to the\nnext stage!"
+
+[[entry]]
+src_hex = "478aaa82a98cc982ad82a282c682ab82cd824181feffa98ce982fb95fc8cf082a282eb82a282eb82feffa982a682c482dd82e982c682a282a282e682428130fcfeffa98ce982fb95fc8cf082cf95a682e982c982cd824181feff6b82508241817182508241816b825182418171825182cc82feff7b835e839383f082678ea282dc82b7824281"
+term = "ffff"
+en = "If the picture is hard\nto see, try viewing it\nfrom other angles.\f\nTo change the view,\nuse the L1, R1, L2, R2\nbuttons."
+
+[[entry]]
+src_hex = "c782a4824881ab82bf82f182c682c282df82bd824881"
+term = "ffff"
+en = "Well? Did you stack\nthem neatly?"
+
+[[entry]]
+src_hex = "748348835b814e83f082b382b582b182de82a082c882cc82feffea8f8a8fc982438bf082c282af82c482cb824281feff4f91be82af82c682cd82a982ac82e782c882a282e6824281"
+term = "ffff"
+en = "Mind where you insert\nthe fork. It isn't\nalways the front side."
+
+[[entry]]
+src_hex = "9f8ea982e782bf82e582c182c682de82b882a982b582ad82feffc882e982a982e082428130fcfeff4d834d83aa82ae93af82c882a282cc82cd82feffc782f182c8829e8ec882cc82a9824181feff8d92d388b582c482dd82c482cb824281"
+term = "ffff"
+en = "It may get a bit\nharder from here.\f\nWatch for when Gigi\nis unable to move."
+
+[[entry]]
+src_hex = "b782b782de82fc8cab82c982e682c182c482cd824181feffca92ea82c882a282ea8f8a8faa82a082e982e6824281feff438bf082c282af82c482cb824281"
+term = "ffff"
+en = "Depending on your\ndirection, some spots\ncan't be passed. Care!"
+
+[[entry]]
+src_hex = "b182cc8251835b818083c582cd824181b782b782de82fefffc8cab82f0826c8da682e982cc82aa82bd82a282b982c282feffc8827c83438393836783be82e682428130fcfeff9f8ecc82588365835b815783e0824181e282c182cf82e882fefffc8cab82c982bf82e382a482a282b582c482cb824281"
+term = "ffff"
+en = "In this game, thinking\nabout your direction is\nthe key point.\f\nMind your heading on\nthe next stage too."
+
+[[entry]]
+src_hex = "5283938365836983aa82c782a482b582c482e082feffc682ea82c882a2829e8ecd824181a282bf82c782feffba89aa82c182c4826c8da682c482dd82c4824281"
+term = "ffff"
+en = "When you just can't\ngrab a container, back\nup once and rethink."
+
+[[entry]]
+src_hex = "bb82cc82b292718e4981feffa082c682bc94aa954181aa82f182ce82c182c4824981"
+term = "ffff"
+en = "That's it!\nHalfway there,\nhang in there!"
+
+[[entry]]
+src_hex = "748348835b814e83f082e38fc982e38fb082bd82dc82dc82feffc582e08241815283938365836983f0825e89d482b182c682feffaa82c582ab82dc82b782428130fcfeffc682a882ea82c882b382bb82a482c8828a8fe082feffc682a882ea82e982b182c682aa82a082e982e6824281"
+term = "ffff"
+en = "You can carry a\ncontainer even with the\nfork raised.\f\nSpots that look\nimpassable can\nsometimes be passed."
+
+[[entry]]
+src_hex = "a482f1824181a282a282b48ab682498130fcfeffb682e18241819f8ecc82588365835b815783c582cd82feff8f835b81768375838d8362834e83cc82e090be96f082feffb782e982cb824281"
+term = "ffff"
+en = "Yep, feeling good!\f\nNext stage I'll explain\nthe warp blocks."
+
+[[entry]]
+src_hex = "8f835b81768375838d8362834e83c982cc82e982c6824181feffaf93b6824690cc828f835b81768375838d8362834e83c982feff8f835b817683b582dc82b782428130fcfeff5283938365836983f082e082c182bd82dc82dc82c582e082feff8f835b817683c582ab82e982e6824281"
+term = "ffff"
+en = "Step on a warp block to\nwarp to the matching\nwarp block.\f\nYou can warp even while\nholding a container."
+
+[[entry]]
+src_hex = "8f835b817683cd82a482dc82ad82678ea682ce82feffa982c882e8826f83628365838a835b81f082feffb982c282e282ad82c582ab82dc82b782428130fcfeffc882ea82c882a282a482bf82cd82bd82a282d682f182feffbe82af82c7824181b782ae82c982c882ea82e982e6824281"
+term = "ffff"
+en = "Used well, warping\nsaves a lot of battery.\f\nHard at first, but\nyou'll soon get\nthe hang of it."
+
+[[entry]]
+src_hex = "8f835b817683e690c982748348835b814e83cc82aa95cc82fefff38bd48aaa82c882a982c182bd82e8824181feff5e89f182c582a282e9825283938365836983aa8230fcfeffbc91cc8275838d8362834e83c982a982b382c882e982feffe682a482c8829e8ecd828f835b817683c582ab82c882a282fefff182be82e682428130fcfeffb182cc8251835b818083c582a282bf82ce82f182feffde82b882a982b582a2828b835b818b83be82af82c7824181feffaa82f182ce82c182c482a882da82a682c482cb824281"
+term = "ffff"
+en = "You can't warp if there\nis no room for the fork\nat the destination,\f\nor if your container\nwould overlap other\nblocks.\f\nIt's the hardest rule\nin the game, so do your\nbest to remember it."
+
+[[entry]]
+src_hex = "82c6825182588365835b815783c5824181feffbf82e3825b81c682e882a082e982cd82a882ed82e8824281feffe082a482ad8fb582e682498130fcfeff9f8ecd828e97c682b5828a8c75838d8362834e83cc82fefffb974b8fbe82e6824281"
+term = "ffff"
+en = "In about 2 more stages\nthe tutorial ends.\nAlmost there!\f\nNext is pitfall-block\npractice."
+
+[[entry]]
+src_hex = "8e97c682b5828a8c75838d8362834e83cc82e38fc982feff5283938365836983f082a882ad82c6824181feffb782e882ca82af82c482ba89c9828e97bf82e982e682428130fcfeff4d834d83cd828e97bf82c882a282a982e7824181feffa082f182b582f182b582c482cb824281"
+term = "ffff"
+en = "Put a container on a\npitfall block and it\nslips through and drops.\f\nGigi won't fall, so\ndon't worry."
+
+[[entry]]
+src_hex = "b182ea82c5827382728274826c827482cc82ab82d982f182feffcd827d8358835e835b81c582ab82bd82cd82b882428130fcfeffc682a482c682a4829f8eaa82b382a282b282cc82feffe082f182be82a282be82e6824281"
+term = "ffff"
+en = "You've mastered the\nTSUMU basics now.\f\nAt last, the next one\nis the final problem."
+
+[[entry]]
+src_hex = "b182ea82aa82bf82e3825b81c682e882a082e982cc82feffbb82c282ac82e582a482b582af82f182be82e682428130fcfeffa18ddc82c582cc82b182c682f082768ea2826f8fb582c482feffc58de38cdc82c582aa82f182ce82c182c4824981"
+term = "ffff"
+en = "This is the tutorial's\ngraduation exam.\f\nRemember all you've\nlearned and see it\nthrough!"
+
+[[entry]]
+src_hex = "a882df82c582c682a4824981feffb182ea82c582bf82e3825b81c682e882a082e982cd82feffbb82c282ac82e582a482be82e682428130fcfeffab82dd82c882e782ab82c182c6824181ba82f182d482cc82feffe082f182be82a282aa82c682af82e982e6824981feffbb82ea82b682e1824181dc82bd82cb824981"
+term = "ffff"
+en = "Congratulations!\nYou've graduated the\ntutorial.\f\nI'm sure you can solve\nevery problem now!\nWell then, see you!"
+
+[[entry]]
+src_hex = "82c882bd82cc82bc964f91f082b38ba682c482cb824281"
+term = "ffff"
+en = "Please tell me\nyour name."
+
+[[entry]]
+src_hex = "588365835b815783bc96f082c282af82c482cb824281"
+term = "ffff"
+en = "Please name\nthe stage."
+
+[[entry]]
+src_hex = "c58d898fa982e7826e8edf82e982c682feff6f83628365838a835b81aa8250824f824f82c982feffc882c182bf82e182a482e682428130fcfeffbb82ea82c582e082a282a2824881feff4081feff40814081cd82a28290814081a282a282a682938110fc5e83438367838b83d682df96e982c6825a835b817583feffb582c482a282c882a28276838c83438366835b815e83aa82feffc18fa682bf82e182a482e682428130fcfeffbb82ea82c582e082a282a2824881feff4081feff40814081cd82a28290814081a282a282a682938110fc"
+term = "nul"
+en = "Starting over sets your\nbattery back to 100.\f\nIs that OK?\n\n  Yes    No\rReturning to the title\nloses any unsaved play\ndata.\f\nIs that OK?\n\n  Yes    No\r"
+
+[[entry]]
+src_hex = "5e83438367838b83d682df96e982c6825a835b817583feffb582c482a282c882a28276838c83438366835b815e83aa82feffc18fa682bf82e182a482e682428130fcfeffbb82ea82c582e082a282a2824881feff4081feff40814081cd82a28290814081a282a282a682938110fc"
+term = "nul"
+en = "Returning to the title\nloses any unsaved play\ndata.\f\nIs that OK?\n\n  Yes    No\r"
+
+[[entry]]
+src_hex = "818382838a835b814a835b816883b78d9e8dfb8c5082c982feff818382838a835b814a835b816883aa82feffb78db382ea82c482a282dc82b982f1824281"
+term = "ffff"
+en = "No memory card is\ninserted in\nMEMORY CARD slot 1."
+
+[[entry]]
+src_hex = "b182cc82818382838a835b814a835b816883cd82fefff389ea82c482a282dc82b7824281"
+term = "ffff"
+en = "This memory card\nis corrupted."
+
+[[entry]]
+src_hex = "f38bab8275838d8362834e83aa82feffab91e882dc82b982f182428130fcfeff7d836283768366835b815e83f082db95b691feffb782e982c982cd824181528275838d8362834e83feff4b957697c582b7824281"
+term = "ffff"
+en = "Not enough free blocks.\f\nSaving map data\nrequires 3 blocks."
+
+[[entry]]
+src_hex = "478389835b81aa82ad94b690b582dc82b582bd824281"
+term = "ffff"
+en = "An error occurred."
+
+[[entry]]
+src_hex = "5a835b817583c982b88e7394b582dc82b582bd824281"
+term = "ffff"
+en = "Save failed."
+
+[[entry]]
+src_hex = "748348835b817d8362836783c982feffb88e7394b582dc82b582bd824281"
+term = "ffff"
+en = "Format\nfailed."
+
+[[entry]]
+src_hex = "748348835b817d8362836783b582c482a282dc82b7824281"
+term = "ffff"
+en = "Formatting."
+
+[[entry]]
+src_hex = "818382838a835b814a835b816883c982feff41834e835a835883b582c482a282dc82b7824281"
+term = "ffff"
+en = "Accessing the\nmemory card."
+
+[[entry]]
+src_hex = "b182cc8266835b815e83cd82feff678e7097c582ab82dc82b982f1824281"
+term = "ffff"
+en = "This data\ncannot be used."
+
+[[entry]]
+src_hex = "76838c83438366835b815e83f0825a835b81758386924281feff818382838a835b814a835b816883f082feffb294a982c882a282c582ba89b382a2824281"
+term = "ffff"
+en = "Saving play data.\nPlease do not remove\nthe memory card."
+
+[[entry]]
+src_hex = "b182cc82818382838a835b814a835b816883cd82feff748348835b817d8362836783b382ea82c482feffa282dc82b982f182428130fcfeff748348835b817d8362836783b582dc82b782a9824881feff40814081cd82a28290814081a282a282a682938110fc"
+term = "nul"
+en = "This memory card is\nnot formatted.\f\nFormat it?\n  Yes    No\r"
+
+[[entry]]
+src_hex = "e38f918fab82b582c482feffe682eb82b582a282c582b782a9824881feff40814081cd82a28290814081a282a282a682938110fc5a835b817583b782e982ea8f8a8ff082feff4991f182c582ba89b382a2824281"
+term = "ffff"
+en = "Overwrite -\nare you sure?\n  Yes    No\rPlease choose a\nplace to save."
+
+[[entry]]
+src_hex = "5a835b817583b782e982ea8f8a8ff082feff4991f182c582ba89b382a2824281"
+term = "ffff"
+en = "Please choose a\nplace to save."
+
+[[entry]]
+src_hex = "818382838a835b814a835b816883aa82feffb78db582d691a682e782ea82dc82b582bd824281feff5a835b817583f08286927e8eb582dc82b7824281"
+term = "ffff"
+en = "The memory card was\nswapped. Save\ncancelled."
+
+[[entry]]
+src_hex = "7d836283768366835b815e83aa82feffa98cc282a982e882dc82b982f1824281"
+term = "ffff"
+en = "Map data\nnot found."
+
+[[entry]]
+src_hex = "76838c83438366835b815e83aa82feffa98cc282a982e882dc82b982f1824281"
+term = "ffff"
+en = "Play data\nnot found."
+
+[[entry]]
+src_hex = "8d835b816883b782e98266835b815e83f082feff4991f182c582ba89b382a2824281"
+term = "ffff"
+en = "Please choose\ndata to load."
+
+[[entry]]
+src_hex = "7d836283768366835b815e83f082feff8d835b816883b582c482a282dc82b7824281"
+term = "ffff"
+en = "Loading\nmap data."
+
+[[entry]]
+src_hex = "76838c83438366835b815e83f082feff8d835b816883b582c482a282dc82b7824281"
+term = "ffff"
+en = "Loading\nplay data."
+
+[[entry]]
+src_hex = "f38bab8275838d8362834e83aa82feffab91e882dc82b982f182428130fcfeff76838c83438366835b815e83f082db95b691feffb782e982c982cd824181508275838d8362834e83feff4b957697c582b7824281"
+term = "ffff"
+en = "Not enough free blocks.\f\nSaving play data\nrequires 1 block."
+
+[[entry]]
+src_hex = "8d835b816883c982b88e7394b582dc82b582bd824281"
+term = "ffff"
+en = "Load failed."
+
+[[entry]]
+src_hex = "818382838a835b814a835b816883aa82feffb78db582d691a682e782ea82dc82b582bd824281feff748348835b817d8362836783f08286927e8eb582dc82b782"
+term = "ffff"
+en = "The memory card was\nswapped. Format\ncancelled."
+
+[[entry]]
+src_hex = "818382838a835b814a835b816883aa82feffb78db582d691a682e782ea82dc82b582bd824281feff8d835b816883f08286927e8eb582dc82b7824281"
+term = "ffff"
+en = "The memory card was\nswapped. Load\ncancelled."
+
+[[entry]]
+src_hex = "7d836283768366835b815e83f0825a835b81758386924281feff818382838a835b814a835b816883f082feffb294a982c882a282c582ba89b382a2824281"
+term = "ffff"
+en = "Saving map data.\nPlease do not remove\nthe memory card."
+
+[[entry]]
+src_hex = "b182cc8276838c83438366835b815e83cd82feff678e7097c582ab82dc82b982f1824281"
+term = "ffff"
+en = "This play data\ncannot be used."
+
+[[entry]]
+src_hex = "b182cc827d836283768366835b815e83cd82feff678e7097c582ab82dc82b982f1824281"
+term = "ffff"
+en = "This map data\ncannot be used."
+
+[[entry]]
+src_hex = "4589aa82ed82cc825283938365836983f082e690c982feffa882a982c882a282c6824181c282df82c882ad82feffc882c182bf82e182a482e6824281"
+term = "ffff"
+en = "Place the right-side\ncontainer first, or you\nwon't be able to stack."
+
+[[entry]]
+src_hex = "b982dc82a282588365835b815783c582cd824181feff748348835b814e83cc82e38fba89f082a482dc82ad82feff98977097b582c482cb824281"
+term = "ffff"
+en = "On tight stages, use\nthe fork's up/down\nwell."
+
+[[entry]]
+src_hex = "5082c282b882c282cd82b182f182c582e982c6824181feff6f83628365838a835b81aa82ab91e882c882ad82feffc882c182bf82e182a482e6824281"
+term = "ffff"
+en = "Carrying one at a time\nruns your battery\ntoo low."
+
+[[entry]]
+src_hex = "738275838d8362834e83cc82fc8cab82c982feff438bf082c282af82c482498130fcfeff8f835b817683b582bd82e38c4181c782c182bf82fc8cab82feffc9826990de82a982f0826c8da682e982cc82e6824281"
+term = "ffff"
+en = "Mind the T-block's\nfacing!\f\nAfter warping, think\nabout which way\nto head."
+
+[[entry]]
+src_hex = "5283938365836983cd825182c282a282c182b582e582c982feff8e97c682b782968ebe82c182c482c582ab82e982cc82e682"
+term = "ffff"
+en = "You can even drop two\ncontainers together,\nyou know."
+
+[[entry]]
+src_hex = "b682e182dc82c982c882e9825182c282cc82feff5283938365836983f082ae93ab82e282b782bb82a482c882feffc682b182eb82c9827592a282c682a282c482a982e782418130fcfeffc58de38ccc825082c282f0825e89d482cc824281feffea8f8a8ff082fc93ea82a982a682e982e682a482c882feffb48ab682c582cb824281"
+term = "ffff"
+en = "Move the 2 containers in\nyour way somewhere easy\nto reach first,\f\nthen carry the last one.\nLike swapping their\nplaces."
+
+[[entry]]
+src_hex = "878fd494c982438bf082c282af82c4824981feffc682ad82c9825e90f1828692cc82f197cc82feffe38fcc826992c982438bf082c282af82c482cb824281"
+term = "ffff"
+en = "Mind the order!\nEspecially the top of\nthe center column."
+
+[[entry]]
+src_hex = "c58de38ccc825182c282aa82c682ea82c882a2829e8ecd82fefffc8cab82f082cf95a682e782ea82e982e682a482c982feffa282c182bd82f182c282f182be825283938365836983f08230fcfeffad82b882b582bf82e182a482cc82e082feffb582a982bd82c882a282e6824281e38cc582feffc282dd82c882a882bb82a482cb824281"
+term = "ffff"
+en = "If you can't get the\nlast 2, it's fine to\nbreak down a stack\f\nto change facing.\nJust rebuild it\nlater."
+
+[[entry]]
+src_hex = "fc8cab82f082cf95a682c882a282c682738daf82c882a282feffc682b182eb82c982cd828d92d388b582c482cb824281"
+term = "ffff"
+en = "Watch for spots you\ncan only reach by\nchanging direction."
+
+[[entry]]
+src_hex = "b68dcc8252839383658369835182c282cd824181feffae93a982b382c882ad82c482e0826e826a82be82e6824281"
+term = "ffff"
+en = "The two left containers\ncan stay where they\nare - that's OK."
+
+[[entry]]
+src_hex = "c282de82878fd494c58241816f83628365838a835b819490feffaa82a982c882e882cf95ed82e982e6824281feffa282eb82a282eb82bd82df82b582c482dd82c482cb824281"
+term = "ffff"
+en = "The stacking order\nchanges the battery a\nlot. Try things out."
+
+[[entry]]
+src_hex = "c58de38cc982c282de825182c282cc825283938365836983feffcd824181d082c682dc82b882c682d182be82b582c482e982feffc682b182eb82c982a882a282c482a882ad82cc82e6824281"
+term = "ffff"
+en = "Leave the last 2\ncontainers on the\njutting-out spot\nfor now."
+
+[[entry]]
+src_hex = "c58de38cc982dc82f182c882a982f082638eb782c682feffdf82f182c782a482c882b182c682c982c882e982e6824281"
+term = "ffff"
+en = "Leaving the middle for\nlast makes things\ntroublesome."
+
+[[entry]]
+src_hex = "fc8cab82f082a982a682e982cc82c982b682e182dc82c882feff5283938365836983cd824181d082c682dc82b882a189c982feffe682af82c482a882ad82cc82e6824281"
+term = "ffff"
+en = "Set aside any container\nthat's in the way of\nchanging direction."
+
+[[entry]]
+src_hex = "a282bf82c78253919495ad82b882b582c482feffc282dd82c882a882b782b582a982c882a282cb824281"
+term = "ffff"
+en = "You'll just have to\nbreak it all down and\nrestack."
+
+[[entry]]
+src_hex = "dc82f182c882a982cc825283938365836983cd824181feffc782a482b582c482e082c58de38cc982c282de82b182c682feffc982c882e982e6824281"
+term = "ffff"
+en = "The middle container\nalways ends up being\nstacked last."
+
+[[entry]]
+src_hex = "5283938365836983f082fc93ea82a982a682c4824181feffb48bf082c282ad82e882c882a882b782cc82e6824281"
+term = "ffff"
+en = "Swap the containers and\nrebuild the bridge."
+
+[[entry]]
+src_hex = "c290a2828f835b817683cd82678eed82c882ad82c482e082feff4e838a834183c582ab82e982e6824281c582e0824181feff678ec182bd82d982a482aa826f83628365838a835b81cc82428130fcfeffb982c282e282ad82c982c882e982cc824281feff8f835b817683b782e9825e8343837e8393834f83aa82feffb682e382a482e682a482be82e6824281"
+term = "ffff"
+en = "You can clear without\nthe blue warp, but using\nit saves battery.\f\nThe timing of your\nwarp is what really\nmatters."
+
+[[entry]]
+src_hex = "748348835b814e83f082e38fc982b582c482a882ad82c682feffae93af82e982ea8f8a8faa824c8dad82c882e982e6824281"
+term = "ffff"
+en = "Keeping the fork up\nwidens where you\ncan move."
+
+[[entry]]
+src_hex = "c682c982a982ad8241814d834d83cc82fc8cab82c682feff5283938365836983f0827592ad82878fd494c982feff438bf082c282af82c482cb824281"
+term = "ffff"
+en = "Above all, mind Gigi's\nfacing and the order\nyou set containers."
+
+[[entry]]
+src_hex = "b792a282b48bf082ec8de982f182be82af82c7824181feffc782b182c982ec8de982a982aa82e296e891cb82428130fcfeffc58d898fc982a082e982ec8de882a982af82cc82b48bf082feffae8aac90b382b982c482e0824181ae93af82c882ad82feffc882c182bf82e182a482be82af82be82e6824281"
+term = "ffff"
+en = "You need to build a\nlong bridge - but where\nis the question.\f\nFinishing the\nhalf-built bridge just\ntraps you."
+
+[[entry]]
+src_hex = "4589cc825182c282cc825283938365836983f082e690c982feff738275838d8362834e83cc82e38fc982ae93a982b982ce82feffa082c682cd82a982f182bd82f182be82e6824281"
+term = "ffff"
+en = "Move the 2 right\ncontainers onto the\nT-blocks first; the\nrest is easy."
+
+[[entry]]
+src_hex = "b682e182dc82c88275838d8362834e83cc82feffb782ab82dc82c98241815283938365836983f082feffa882a282c482dd82c482cb824281"
+term = "ffff"
+en = "Try setting a container\nin the gap between the\nblocks in your way."
+
+[[entry]]
+src_hex = "fc8cab82c982be82af82438bf082c282af82ea82ce824181feffdf82f182c782a482be82af82c782de82b882a982b582ad82feffcd82c882a282e682cb824281"
+term = "ffff"
+en = "If you just mind your\nfacing it's a chore,\nbut not hard."
+
+[[entry]]
+src_hex = "bb82f182c882c982e68ee882c382e782a282feff5283938365836983cd82c882a282cb82428130fcfeffc582e0824181c282de829e8ec982bf82e182f182c682feff478af082bb82eb82a682e982cc82aa82e591cf954281"
+term = "ffff"
+en = "No containers are that\nhard to reach.\f\nBut lining up the\npicture while stacking\nis tough."
+
+[[entry]]
+src_hex = "dc82f182c882a982cc82bf82e582c182c6824c8da282feffc682b182eb82c5824181a482dc82ad82fc8cab82f082feffa982a682e982cc82aa827c834383938367834281"
+term = "ffff"
+en = "The key is changing\nfacing well in the\nslightly wider middle."
+
+[[entry]]
+src_hex = "c682c982a982ad824e838b834e838b83c682fc8cab82f082feffa982a682e982cc82aa827c83438393836783be82e682428130fcfeffaf82c182b182a482b982dc82a2828a8fc582e0824181fefffc8cab82f082a982a682e982b182c682c582feffca92ea82e982ea8f878daa82a082e982a982e7824281"
+term = "ffff"
+en = "The key is spinning\naround to change\nfacing.\f\nEven in tight spots,\nchanging facing can\nlet you pass."
+
+[[entry]]
+src_hex = "c58d898fcd82e38ceb82a982e7824281feff9f8ecd824f91a982e7824281"
+term = "ffff"
+en = "First from behind.\nNext from the front."
+
+[[entry]]
+src_hex = "5282c282cc825283938365836983c582b48bf082feffec8dea82ce824181a082c682cd82c88a5092e6824281"
+term = "ffff"
+en = "Build a bridge with 3\ncontainers and the\nrest is simple."
+
+[[entry]]
+src_hex = "dc82f182c882a982c9825282c282c282dd82a082b082e982feffc6824181fc8cab82aa82a982a682e782ea82c882ad82feffc882c182bf82e182a482e682428130fcfeffc282de829e8ecd82cd82b682c182b182a982e7824181cb82"
+term = "ffff"
+en = "Stack 3 in the middle\nand you won't be able\nto change facing.\f\nStack from the edges."
+
+[[entry]]
+src_hex = "b68daa82ed82c982c282de825182c282cc82feff5283938365836983cd824181d082c682dc82b882feffc782b182a982c9827592a282c682ad82c682a282a282e682"
+term = "ffff"
+en = "It's good to set the 2\nleft-side containers\nsomewhere aside first."
+
+[[entry]]
+src_hex = "5283938365836983f082c782af82c482a882ad82ea8f8a8ffeffaa82ed82a982e782c882a2829e8ecd824181c290a282b08ffeffcc82e38fc9827592a282c682af82ce826e826a82be82e68230fcfeffc582e0824181bb82ea82be82c6827282898393834e83cd82feffc682ea82c882a282af82c782cb82"
+term = "ffff"
+en = "If you don't know where\nto set a container, the\nblue floor is fine.\f\nBut you won't get an\nS rank that way."
+
+[[entry]]
+src_hex = "e68eea82c882bb82a482c8825283938365836983e0824181feffd682a282cc82e38fa982e782c882e782e68ee982b182c682feffaa82c582ab82e982a982e0824281"
+term = "ffff"
+en = "Even a container that\nlooks unreachable can\nbe taken from the wall."
+
+[[entry]]
+src_hex = "dc82b8824181b68d4589c782c182bf82a982cc82ba89cc82feff5283938365836983f082b390b582a282ea8f8a8fc982feffc282de82b182c682cb824281"
+term = "ffff"
+en = "First, stack the lower\ncontainer on one side\ninto its right spot."
+
+[[entry]]
+src_hex = "dc82b882cd82dc82f182c882a982c982a082e9825282c282feffcc825283938365836983f0825e89d482b182c6824281feffc682d182be82b582c482a282e9828a8fcd82418130fcfeffbb82ea82bc82ea825182c282b882c28279834183c982feffc882c182c482e982a982e7824181a282c182b582e582c982feffcd82b182d482c682798abe82e6824281"
+term = "ffff"
+en = "First carry the 3\ncontainers in the\nmiddle.\f\nThe jutting spots come\nin pairs, so carry\nthem together."
+
+[[entry]]
+src_hex = "b682e182dc82c8825283938365836983f082c782a482feffae93a982b782a982aa827c83438393836783be82cb82428130fcfeffd082c682dc82b8824181ca95cc82feff5283938365836983cc82e38fc982c582e082feffa882a282c682ad824881"
+term = "ffff"
+en = "The key is how you move\nthe container in the\nway.\f\nSet it on top of\nanother container\nfor now?"
+
+[[entry]]
+src_hex = "e38fcc824b8acc825283938365836983cd8253919495feff8e97c682b582bf82e182c182bd82d982a482aa82feff6f83628365838a835b81cd82df90f196c582ab82e982e68230fcfeffc582e0824181878fd494c682fc8cab82c982be82af82cd82feff438bf082c282af82c482cb824281"
+term = "ffff"
+en = "Dropping all the upper-\nfloor containers saves\nmore battery.\f\nBut mind the order\nand the facing."
+
+[[entry]]
+src_hex = "748348835b814e83f082e38fb082bd82dc82dc82feff8f835b817683b582c48241818f835b817683e690c982feffa082e9825283938365836983f082e68ee982cc82428130fcfeffbb82b582bd82e782bb82ea82f082ab91ea8fc982feffb582c4824181e082a482ea88c282cc825283938365836983fefff082e68eea82e982e682a482c982b782e982cc82e6824281"
+term = "ffff"
+en = "Warp with the fork up\nand grab the container\nat the destination.\f\nUse that as a foothold\nto reach the other\ncontainer."
+
+[[entry]]
+src_hex = "82bf82b182bf82c982b48bf082ec8de782c882a282c682feff5283938365836983aa82e68eea82c882a282e682428130fcfeffb48bcc82ec8de882fb95c982e682c182c482cd824181feff568387835b8167834a8362836783e082feffc582ab82e982a982e082cb82"
+term = "ffff"
+en = "You have to build\nbridges here and there\nor you can't reach.\f\nDepending how you build\nthem, a shortcut may be\npossible."
+
+[[entry]]
+src_hex = "d78db782ac82c4828195ca92b682e182feffb782b782df82c882a282b993c582e0824181feffa189c9825283938365836983f0827592af82ce8230fcfefffc8cab82f082a982a682e782ea82bd82e882feffb782b782df82e982e682a482c982c882c182bd82e882feffb782e982e6824281"
+term = "ffff"
+en = "Even on a path too thin\nto pass normally, set a\ncontainer beside it\f\nand you may be able to\nturn or get through."
+
+[[entry]]
+src_hex = "4281feff8f835b817683b382b982e782ea82c482b182dc82e9829e8efeffcd8241818f835b817683c582ab82c882a282e682a482c982feffb582bf82e182a682ce82a282a282cc82e6824281"
+term = "ffff"
+en = "When being warped is a\nproblem, just make it\nso you can't warp."
+
+[[entry]]
+src_hex = "ba89cc82f197be82af82ab82bf82f182c682c282df82ce824181feffcc82b182e882cc825182f197cd82e38fa982e782feffc282df82e982e6824281"
+term = "ffff"
+en = "Stack just the bottom\nrow neatly, and the\nother 2 stack from\nthe top."
+
+[[entry]]
+src_hex = "c682c982a982ad824181ae93af82c882ad82feffc882e782c882a282e682a482c982be82af82feff438bf082c282af82c482428130fcfeffa282ab82c882e882738275838d8362834e83cc82e38fc982feffc282dd82a082b082e982c6824181b782ae82c982feffae93af82c882ad82c882e982e6824281"
+term = "ffff"
+en = "Above all, just be\ncareful not to get\nstuck.\f\nStacking straight onto\na T-block will trap you\nfast."
+
+[[entry]]
+src_hex = "5283938365836983f082678ec182c482a482dc82ad82feffab91ea8ff082ad82de82cc82aa827c83438393836783feffbe82e6824281"
+term = "ffff"
+en = "The key is building a\ngood foothold using\nthe containers."
+
+[[entry]]
+src_hex = "dc82b882cd82d49675838d8362834e83cc82b782ab82dc82feffc9825283938365836983f0828e97c682b582c4824181feffca924898f082ec8de982b182c682428130fcfeff9f8ec9828f835b817683c982d082c182a982a982c182c482feffe08245926f8fc582ab82e982e682a482c982b582c482feffa882ad82b182c6824181cb824281"
+term = "ffff"
+en = "First drop a container\nin the net-block gap to\nmake a path.\f\nThen set it so you can\nescape even if the warp\ncatches you."
+
+[[entry]]
+src_hex = "c782b182c9825283938365836983f0828e97c682b982ce82feffab82bf82f182c682b48baa82c582ab82e982cc82a9824181feffc182c482b182c682c982438bf082c282af82c482cb82428130fcfeffa082c6824181e38fcc824b8ac982738dad82f1899490cd82feffea88f189c582b782dc82b982e982b182c6824281"
+term = "ffff"
+en = "Mind where you drop\ncontainers so the\nbridge forms right.\f\nAlso, go up to the\nupper floor only once."
+
+[[entry]]
+src_hex = "b68da982e782878fc982c282f182c582a282af82ce824181feffde82b882a982b582ad82cd82c882a282e682cb824281"
+term = "ffff"
+en = "Stack in order from the\nleft and it isn't\nhard."
+
+[[entry]]
+src_hex = "738275838d8362834e83cc828a8fc982a282ad82c982cd82feffc782a482b782ea82ce82a282a282a9824181aa82feff7c83438393836783428130fcfeff5182c282cc825283938365836983f082a482dc82ad82feffc282a982c182c482cb824281"
+term = "ffff"
+en = "The key is how to reach\nthe T-block spot.\f\nUse the 2 containers\nwell."
+
+[[entry]]
+src_hex = "e690c982c782c182bf82cc828e97c682b5828a8cfeff75838d8362834e83c9825283938365836983f082feff8e97c682b782cc82a9824181e682ad826c8da682c482cb82"
+term = "ffff"
+en = "Think hard about which\npitfall block to drop a\ncontainer into first."
+
+[[entry]]
+src_hex = "dc82b882cd82c290a2828f835b81768375838d8362834e83fefff082678ea682e982e682a482c982b582c882ab82e182feffbe82df82cb82428130fcfeffe38fc982cc82c182c482e9825283938365836983f082feffc782af82e982cc82e6824281"
+term = "ffff"
+en = "First you must make the\nblue warp block usable.\f\nMove aside the\ncontainer sitting\non it."
+
+[[entry]]
+src_hex = "c882f182c682a982738275838d8362834e83cc82df8bad82feffc98253919495cc825283938365836983f082feff578fdf82e782ea82ea82ce82a282a282f182be82af82c782"
+term = "ffff"
+en = "If only you could gather\nall the containers near\nthe T-block..."
+
+[[entry]]
+src_hex = "58835e835b8167835f83628356838583cd826f8362834e83feffc582cb8242814f91c9826990f182b682e182a482c682feffc782a482b582e682a482e082c882ad82c882e982e682428130fcfeffa082c68241815283938365836983cd8253919495feff678eed82c882ad82c482e082c882f182c682a982feffc882e982e6824281"
+term = "ffff"
+en = "Start with a back dash.\nGoing forward leaves you\nwith no options.\f\nAlso, you can manage\nwithout using every\ncontainer."
+
+[[entry]]
+src_hex = "c682c982a982ad82ae93ab82c982ad82a282af82c7824181feff4589aa82ed824181b68daa82ed824181dc82f182c882a982feffcc82878fc582ae8aac90b382b982e982cc82428130fcfeffdc82f182c882a982cd82b68d4589aa82feffc282dd82a882ed82e982dc82c582ae93a982b382c882ad82feffc482e0824181c882f182c682a982c882e982e6824281"
+term = "ffff"
+en = "It's hard to move, but\ncomplete it in order:\nright, left, middle.\f\nThe middle works out\neven if you don't move\nit until the sides are\ndone."
+
+[[entry]]
+src_hex = "c290a2828f835b817683cd824181cc82e982fc8cab82f082feffdc82bf82aa82a682e982c682ae93af82c882ad82feffc882c182bf82e182a482e682428130fcfeffc582e0824181738275838d8362834e83cc828a8fc982feff738dad829e8ecd824181c290a2828f835b817683f082feffc282a982ed82c882ab82e182be82df82be82e6824281"
+term = "ffff"
+en = "Board the blue warp the\nwrong way and you'll\nget stuck.\f\nBut you must use the\nblue warp to reach the\nT-block spot."
+
+[[entry]]
+src_hex = "c682ad82c982de82b882a982b582ad82cd82c882a282feffaf82c78241815283938365836983f0827592a282c482feffa882af82e982ea8f8a8faa82b982dc82a282a982c882488130fcfeff438bf082c282af82c882a282c682cf95c982feffc682e882c982ad82ad82c882c182bf82e182a482e6824281"
+term = "ffff"
+en = "Not especially hard, but\nspace to set containers\nis tight, huh?\f\nCareless play makes\nthem oddly hard\nto reach."
+
+[[entry]]
+src_hex = "8e97c682b5828a8c75838d8362834e83cc82e38fc982feff5283938365836983f0827592ad82c6824181e082a482feffe68eea82c882ad82c882c182bf82e182a482e682428130fcfeffbb82ea82be82af82438bf082c282af82c482feff4589a982e782878fc982c282f182c582a282af82ce82feffe591e48f76954981"
+term = "ffff"
+en = "Set a container on a\npitfall block and you\ncan't get it back.\f\nJust mind that and\nstack in order from\nthe right - you're OK!"
+
+[[entry]]
+src_hex = "b182cc82588365835b815783c582cd824181feff5283938365836983cc828e97c682b582a982bd82aa82feffb782d782c482428130fcfeff438bf082c282af82c882a282c6824181feffba89cc824b8acc825283938365836983dc82c582feffe68eea82c882ad82c882c182bf82e182a482e6824281"
+term = "ffff"
+en = "On this stage, how you\ndrop the containers is\neverything.\f\nCareless play makes even\nthe lower-floor\ncontainers unreachable."
+
+[[entry]]
+src_hex = "478acc82c882a2825283938365836983f082feffa282bf82ce82f182e38fcc824b8aa982e7828e97c682feffb582c4824181738275838d8362834e83cc824f91c98230fcfeffab91ea8ff082ec8dea82ce82a282a282cc824281feffc582e082bb82ea82dc82c582aa82df82f182c782a482cb82"
+term = "ffff"
+en = "Drop the picture-less\ncontainer from the top\nfloor to make a\f\nfoothold in front of\nthe T-block. Getting\nthere is the chore."
+
+[[entry]]
+src_hex = "8e97c682b5828a8c75838d8362834e83cc82e38fc982feff5283938365836983f0827592a282bf82e182be82df82428130fcfeffdc82b882cd824181b68dcc82f197f082c882f182c682a982feffae8aac90b382b982c882ab82e182cb824281"
+term = "ffff"
+en = "Don't set a container on\na pitfall block.\f\nFirst, somehow complete\nthe left column."
+
+[[entry]]
+src_hex = "b48bf082ec8dea82ce82a282a282e682a482c982feffa98ca682e982af82c7824181c08ecd82bb82ea82b682e182feff4e838a834183c582ab82c882a282e682428130fcfeffbe82dc82b382ea82c882a282e682a482c982cb824281"
+term = "ffff"
+en = "It looks like you just\nbuild a bridge, but that\nwon't clear it.\f\nDon't be fooled."
+
+[[entry]]
+src_hex = "5283938365836983f0828e97c682b782c682feff478aaa82a98ca682c882ad82c882c182bf82e182a482feffaf82c7824181ae8aac90b382b982e982b182c682cd8230fcfeffc582ab82e982cc824281de82b882a982b582a282feff588365835b815783b682e182c882a282a982e7824181feffaa82f182ce82c182c482cb824281"
+term = "ffff"
+en = "Dropping a container\nhides the picture, but\nyou can still\f\ncomplete it. It's not a\nhard stage, so\nhang in there."
+
+[[entry]]
+src_hex = "bd89c982e0826c8da682b882c9824181feff878fd494c982c282df82ce82a282a282be82af82428130fcfeffb182ea82a982e782de82b882a982b582ad82c882e982feffa982e7824181bf82e582c182c682a791ca82ab82c182c482feffc682b182eb82cb824281"
+term = "ffff"
+en = "Just stack in order\nwithout thinking.\f\nIt gets harder soon,\nso this is a little\nbreather."
+
+[[entry]]
+src_hex = "dc82f182c882a982cc825182c282cc825283938365836983feffcd824181ae82e982c182c682f189e882b182dc82c882a282feffc682ab82bf82f182c682c282df82c882a282e6824281"
+term = "ffff"
+en = "The 2 middle containers\nwon't stack neatly\nunless you loop all\nthe way around."
+
+[[entry]]
+src_hex = "dc82b882cd824181a282bf82ce82f1824589ba89cc82feff5283938365836983f082a482dc82ad82feff738275838d8362834e83c982cc82b982e982cc82428130fcfeffbd82be82b5824181bb82cc82e38fdc82c582bb82eb82a682feffbf82e182a482c682ae93af82c882ad82c882e982a982e782feff438bf082c282af82c482cb824281"
+term = "ffff"
+en = "First, set the bottom-\nright container onto the\nT-block well.\f\nBut lining up above it\ntoo will trap you, so\nbe careful."
+
+[[entry]]
+src_hex = "ba89c982a082e9825382c282cc825283938365836983c582feffab91ea8ff082a482dc82ad82ec8dc182c482cb82428130fcfeff478acc82a082e9825283938365836983cd82feff58835e835b8167836e925f93cc82df8bad82c982feffa982bd82df82c482a882ad82c682798abe82e6824281"
+term = "ffff"
+en = "Build a good foothold\nwith the 4 lower\ncontainers.\f\nKeeping the picture\ncontainers near the\nstart makes it easier."
+
+[[entry]]
+src_hex = "5283938365836983f082738275838d8362834e83c982feffcd82b182d4829e8ecd8241815182c282b882c282feffcd82b182d482b182c682428130fcfeffce974690cc82b48bf0826e93e9824f91c982feff478af082bb82eb82a682c482a882a282bd82d982a482aa82feff798abe82e6824281"
+term = "ffff"
+en = "Carry containers to the\nT-block two at a time.\f\nLine up the picture\nbefore crossing the\ngreen bridge - easier."
+
+[[entry]]
+src_hex = "c58d898fc982ba89cc825182c282f082feff738275838d8362834e83c982cc82b982bf82e182a282feffdc82b582e582a482428130fcfeffcc82b182c182bd825382c282cc825283938365836983feffcd82a082c682dc82ed82b582c582e0826e826a824281"
+term = "ffff"
+en = "Let's put the bottom 2\non the T-blocks first.\f\nThe remaining 4\ncontainers can wait -\nthat's OK."
+
+[[entry]]
+src_hex = "478acc82cd82c182c482a082e9825283938365836983cc82feffa482bf824181dc82f182c882a982cc82ea88c282cd82feffd382c282a482c982cd82b182f182c582e08230fcfeff738275838d8362834e83c982a882ad82b182c682aa82feffc582ab82c882a282cc824281feffe38fa982e7828e97c682b382c882a282c6824181cb824281"
+term = "ffff"
+en = "Of the picture\ncontainers, the middle\none can't go on the\f\nT-block by carrying it\nnormally.\nYou must drop it."
+
+[[entry]]
+src_hex = "ae93a982b7829e8ecd824589cc82f197a982e7824281feffb682e182c882a282c6824181a082c682a082c682feffdf82f182c782a482c882b182c682c982c882e982e6824281"
+term = "ffff"
+en = "Move from the right\ncolumn. Otherwise it\ngets troublesome later."
+
+[[entry]]
+src_hex = "dc82b882cd82b68da491cc82f197f082feff738275838d8362834e83c982a882ad82b182c682f082feff6c8da682c482428130fcfeffbb82b582bd82e7824181a082c682cd82feffa282aa82a282c982a982f182bd82f182be82e6824281"
+term = "ffff"
+en = "First, think about\nputting the left column\non the T-block.\f\nAfter that it's\nsurprisingly easy."
+
+[[entry]]
+src_hex = "e38fa982e7828e97c682b582c482b48bf082ec8de982f182feffbe82af82c7824181c782b182c982ec8de982a982aa82feffb782b282ad82de82b882a982b582a282cc82428130fcfeff718393836783cd8275818c8393834b83c6828c8393834b83feffcc82d48ac982a082e9825a92a282b48b7681e682428130fcfeffc582e0824181a082c6825082c282c782b182a982c982feff8e97c682b382c882a282c68241815283938365836983f082feff53919495e68ee982968ecd82c582ab82c882a282cc824281"
+term = "ffff"
+en = "You drop pieces to build\na bridge, but where is\nvery tricky.\f\nHint: 'the short bridge\nbetween two bricks.'\f\nBut unless you also drop\none more somewhere, you\ncan't take every one."
+
+[[entry]]
+src_hex = "e38fcc824b8acc825282c282cc825283938365836983feffb382a682e68eea82ea82ce8241814e838a834183b582bd82feffe682a482c882e082cc82e68242815283938365836983aa8230fcfeffab91e882c882a282c682768ec182bd82e7824181feff738275838d8362834e83cc82e38fc982a082e982feff5283938365836983e082678ec182bf82e182a6824281"
+term = "ffff"
+en = "Grab the 3 upper-floor\ncontainers and it's as\ngood as cleared.\f\nIf you're short on\ncontainers, use the\nones on the T-block too."
+
+[[entry]]
+src_hex = "c58de38f4b8acc825283938365836983f082e68ee982feffbd82df82c9824181ab91ea8ff082ec8de782c882ab82e182feffbe82df82be82e682428130fcfeffbb82ea82b382a682438bc382af82ce824181feffa082c682cd82c782f182c782f182feffcc82da82c182c482a282c182c4826e826a824281"
+term = "ffff"
+en = "You must build a\nfoothold to grab the\ntop-floor container.\f\nOnce you see that, just\nkeep climbing up -\nthat's OK."
+
+[[entry]]
+src_hex = "478acc82cd82c182c482a082e9825283938365836983f082feff53919495e68ee982dc82c582aa82bd82a282d682f182e682428130fcfeffb782d782c482cc825283938365836983f082feffa082bf82b182bf82678ea282dc82ed82b382c882a282c682feffbe82df82c882cc824281"
+term = "ffff"
+en = "Getting every picture\ncontainer is the hard\npart.\f\nYou have to reuse all\nthe containers here\nand there."
+
+[[entry]]
+src_hex = "de82e882c982478af082ae8aac90b382b982e682a482c682feffb582c882a282c5824181dc82b882cd825283938365836983fefff08253919495738275838d8362834e83cc82e38fc98230fcfeffc282de82b182c682a982e782cd82b682df82e982cc824281fefffc8cab82cd82bf82e182f182c682738275838d8362834e83feffc982878ded82b982c482cb82428130fcfeff478af082ae8aac90b382b982e982cc82cd82feffbb82ea82a982e782cc82fb95aa82a282a282ed824281"
+term = "ffff"
+en = "Don't force the picture.\nFirst, stack every\ncontainer onto the\f\nT-blocks. Match the\nfacing to the T-block\nproperly.\f\nComplete the picture\nafter that - it's\nbetter that way."
+
+[[entry]]
+src_hex = "b182cc82588365835b815783cd824181feffe591e38d7b95cc8258908793b390a18eb382f182cc82feffec8d6995c582b782428130fcfeffef93b582ad82cd82a082e882dc82b982f182aa824181feffab82c182bf82e882dc82c682dc82c182c482a282e982feff5a8393835883cc82a082e982ec8d6995c582b7824281"
+term = "ffff"
+en = "This stage is by\nMasaharu Morishima\nof Osaka.\f\nNot hard, but a neatly\nput-together work with\nreal sense."
+
+[[entry]]
+src_hex = "b182cc82588365835b815783cd824181feffa08eea89a78ccc828692ba919b8c698eb382f182cc82feffec8d6995c582b782428130fcfeffc88a5092c982a98ca682c482feffc882a982c882a982e282e982968eaa82bd91ad824181feffc682c482e082798ab582a282ec8d6995c582b7824281"
+term = "ffff"
+en = "This stage is by\nKenji Nakamura\nof Shiga.\f\nLooks simple but there's\nplenty to do - a very\nfun work."
+
+[[entry]]
+src_hex = "b182cc82588365835b815783cd824181feffc390aa89a78ccc82c189a193778ab382f182cc82feffec8d6995c582b782428130fcfeffa98cbd82da96c682cd82e188a2824181a982c882e882feff67838a8362834e83cc82bd91a282ec8d6995c582b7824281feffef93b582b382e082a882e88ea08dc582b782cb824281"
+term = "ffff"
+en = "This stage is by\nManabu Kato\nof Shizuoka.\f\nUnlike its looks, a work\nfull of tricks. The\ndifficulty is just right."
+
+[[entry]]
+src_hex = "b182cc82588365835b815783cd824181feffce90ec90a78ccc82528e7b965f8db382f182cc82feffec8d6995c582b782428130fcfeff9e89e595ec8dcc828692c582e0824181c58d828d868cec8dfeffcc82ea88c282c582b7824281c682c982a982ad824181feffe282c182c482dd82c482ad82be82b382a282428130fcfeff438baa82c282ab82b382a682b782ea82ce824181feff4b95b882f089af82dc82b7824281"
+term = "ffff"
+en = "This stage is by\nHiroshi Yamamoto\nof Ishikawa.\f\nOne of the finest of all\nentries. Just give it a\ntry.\f\nOnce you notice it,\nyou'll surely solve it."
 
