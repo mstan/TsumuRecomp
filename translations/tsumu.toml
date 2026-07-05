@@ -1,0 +1,30 @@
+# Tsumu Light (SLPS-02253) - English translations. Framework: docs/STRING_TRANSLATION.md
+# Keyed by FNV-1a64 of the exact little-endian Shift-JIS source-record bytes.
+schema = 1
+default_lang = "en"
+
+[[entry]]
+src_hex = "cc82b182e882cc825182f197cd82e38fa982e782feffc282df82e982e6824281"
+term = "ffff"
+en = "Stack the last 2\nrows from the top."
+
+[[entry]]
+src_hex = "86927e8eb582dc82b7824281"
+term = "ffff"
+en = "Cancel."
+
+[[entry]]
+src_hex = "dc82b782428130fcfeff5283938365836983f082e082c182bd82dc82dc82c582e082feff8f835b817683c582ab82e982e6824281"
+term = "ffff"
+en = "You can warp even\nwhile holding a\ncontainer."
+
+[[entry]]
+src_hex = "be82e68230fcfeffc582e0824181bb82ea82be82c6827282898393834e83cd82feffc682ea82c882a282af82c782cb82"
+term = "ffff"
+en = "But you won't get\nan S rank that way."
+
+[[entry]]
+src_hex = "c5824181478aaa82c582ab82bd82e782feff4e838a834183c582b782428130fcfeff5283938365836983cd82a282bf82c782c982feff5182c282dc82c582e082c282b182c682aa82feffc582ab82dc82b7824281"
+term = "ffff"
+en = "When done, you clear.\nHold up to 2\ncontainers at once."
+
