@@ -1113,3 +1113,19 @@ width   = 26
 src_hex = "eb82b682a482e782"
 src_jp  = "ろじうら"
 en = "BACK ALLEY"
+
+
+# --- In-place source-patch of static 0xFFFF-framed records drawn by a renderer
+# that reads the EXE source address directly (pointer-repoint apply can't reach
+# them). Same RAM source-patch as the labels: verify JP bytes, overwrite content
+# with fullwidth-Latin English padded to `width`, leaving the trailing 0xFFFF
+# terminator (just past `width`) intact. ---
+
+# Name-entry prompt @ 0x80071360 ("あなたの名前を教えてね。"). 24 content bytes
+# (12 cells) then FF FF at 0x80071378 — width=24 keeps the terminator untouched.
+[[glyph_label]]
+addr    = 0x80071360
+width   = 24
+src_hex = "a082c882bd82cc82bc964f91f082b38ba682c482cb824281"
+src_jp  = "あなたの名前を教えてね。"
+en = "YOUR NAME?"
