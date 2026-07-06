@@ -1393,3 +1393,71 @@ addr    = 0x80071690
 width   = 64
 src_hex = "76838c83438366835b815e83f0825a835b81758386924281feff818382838a835b814a835b816883f082feffb294a982c882a282c582ba89b382a2824281ffff"
 en      = "Saving. Don't\nremove Card."
+
+# --- menu/dialog static-patch strings (merged) ---
+
+[[glyph_label]]
+addr    = 0x80071790
+width   = 62
+src_hex = "818382838a835b814a835b816883aa82feffb78db582d691a682e782ea82dc82b582bd824281feff5a835b817583f08286927e8eb582dc82b7824281ffff"
+en      = "Card swapped.\nSave canceled."
+
+[[glyph_label]]
+addr    = 0x800717d0
+width   = 34
+src_hex = "7d836283768366835b815e83aa82feffa98cc282a982e882dc82b982f1824281ffff"
+en      = "No map data."
+
+[[glyph_label]]
+addr    = 0x800717f4
+width   = 34
+src_hex = "76838c83438366835b815e83aa82feffa98cc282a982e882dc82b982f1824281ffff"
+en      = "No play data."
+
+[[glyph_label]]
+addr    = 0x80071818
+width   = 36
+src_hex = "8d835b816883b782e98266835b815e83f082feff4991f182c582ba89b382a2824281ffff"
+en      = "Select save data."
+
+[[glyph_label]]
+addr    = 0x8007183c
+width   = 36
+src_hex = "7d836283768366835b815e83f082feff8d835b816883b582c482a282dc82b7824281ffff"
+en      = "Loading map data"
+
+[[glyph_label]]
+addr    = 0x80071860
+width   = 36
+src_hex = "76838c83438366835b815e83f082feff8d835b816883b582c482a282dc82b7824281ffff"
+en      = "Loading play data"
+
+[[glyph_label]]
+addr    = 0x800718dc
+width   = 24
+src_hex = "8d835b816883c982b88e7394b582dc82b582bd824281ffff"
+en      = "Load failed"
+
+[[glyph_label]]
+addr    = 0x80071938
+width   = 62
+src_hex = "818382838a835b814a835b816883aa82feffb78db582d691a682e782ea82dc82b582bd824281feff8d835b816883f08286927e8eb582dc82b7824281ffff"
+en      = "Card swapped.\nLoad canceled."
+
+[[glyph_label]]
+addr    = 0x80071978
+width   = 64
+src_hex = "7d836283768366835b815e83f0825a835b81758386924281feff818382838a835b814a835b816883f082feffb294a982c882a282c582ba89b382a2824281ffff"
+en      = "Saving map data.\nDon't remove."
+
+[[glyph_label]]
+addr    = 0x800719b8
+width   = 38
+src_hex = "b182cc8276838c83438366835b815e83cd82feff678e7097c582ab82dc82b982f1824281ffff"
+en      = "Play data invalid."
+
+[[glyph_label]]
+addr    = 0x800719e0
+width   = 38
+src_hex = "b182cc827d836283768366835b815e83cd82feff678e7097c582ab82dc82b982f1824281ffff"
+en      = "Map data invalid."
