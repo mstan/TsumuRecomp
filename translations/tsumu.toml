@@ -222,15 +222,18 @@ en = "Saving play data.\nPlease do not remove\nthe memory card."
 # Card "not formatted?" dialog — table-addressed (never a dispatch arg), so it
 # needs the in-place RAM patch (ram_addr). It is INTERACTIVE: the record's
 # trailing \r (10-FC prompt/wait) makes the dialog accept Yes/No and advance, so
-# the English MUST keep the \r and the \f page break. Sized to exactly the
-# 102-byte record so the control layout + terminator land where the game expects.
+# the English MUST keep the \r. The structure-preserving patch pads to the
+# 102-byte record so the \r + terminator land where the game expects.
 # ＄/％ are the game's ○/✕ button glyphs.
 [[entry]]
 ram_addr = 0x800716D0
 src_hex = "b182cc82818382838a835b814a835b816883cd82feff748348835b817d8362836783b382ea82c482feffa282dc82b982f182428130fcfeff748348835b817d8362836783b582dc82b782a9824881feff40814081cd82a28290814081a282a282a682938110fc"
 term = "nul"
-# Box fits ~11 fullwidth glyphs/line, ~3 lines/page — keep every line short.
-en = "Card not\nformatted.\fFormat it?\n Yes＄ No％\r"
+# Box fits ~11 fullwidth glyphs/line, ~3 lines/page. NO \f: the renderer's page
+# break is a press-to-continue that does NOT clear/newline, so text after it
+# appends to the current line and spills. Keep everything on 3 lines via \n, with
+# the Yes/No on the last line and the trailing \r for the prompt-wait.
+en = "Format\nthis card?\n Yes＄ No％\r"
 
 # Overwrite-confirm dialog ("Overwrite? Yes/No") — INTERACTIVE, at the START of
 # the 0x71738 blob, ending in \r (10-FC) with the save-location text right after.
@@ -258,7 +261,30 @@ en = "Pick a\nsave slot"
 ram_addr = 0x80071404
 src_hex = "5e83438367838b83d682df96e982c6825a835b817583feffb582c482a282c882a28276838c83438366835b815e83aa82feffc18fa682bf82e182a482e682428130fcfeffbb82ea82c582e082a282a2824881feff4081feff40814081cd82a28290814081a282a282a682938110fc"
 term = "nul"
-en = "Return to\ntitle and\nlose data?\f Yes＄ No％\r"
+en = "Quit and\nlose data?\n Yes＄ No％\r"
+
+# Card-manager status messages (the game's OWN English, each one long line that
+# overflows the ~11-glyph box now that the msg_sep terminators isolate them).
+# Reflow with \n to fit; term=ffff (non-interactive status, ends at the 0xFFFF
+# separator). src_hex = the resident English bytes; keep the reflow within the
+# record's byte budget (Reading=30B, Data=28B, Saving=52B).
+[[entry]]
+ram_addr = 0x80071648
+src_hex = "718285828182848289828e82878240816282818292828482448144814481"
+term = "ffff"
+en = "Reading\nCard..."
+
+[[entry]]
+ram_addr = 0x80071670
+src_hex = "6382818294828182408195828e8295829382818282828c8285824481"
+term = "ffff"
+en = "Data\nunusable."
+
+[[entry]]
+ram_addr = 0x80071690
+src_hex = "72828182968289828e8287824481408163828f828e82668194824081928285828d828f8296828582408162828182928284824481"
+term = "ffff"
+en = "Saving.\nDon't take\ncard."
 
 # --- Inter-message NUL separators (packed-chunk structure fix) --------------
 # The card-manager messages are packed into NUL-terminated chunks; within a
