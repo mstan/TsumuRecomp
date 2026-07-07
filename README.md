@@ -121,10 +121,15 @@ Requirements:
 # Regenerate generated/SLPS_022.53_{full,dispatch}.c from the disc/EXE:
 ../psxrecomp/recompiler/build/psxrecomp-game.exe --config game.toml
 
-cmake -S . -B build -G Ninja -DPSX_LAUNCHER=ON
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DPSX_LAUNCHER=ON
 cmake --build build -j8
 ./build/Tsumu_Light_Recompiled.exe
 ```
+
+> **Build an optimized (Release) binary.** The recompiled game is a huge block of
+> generated C — a `-O0` build runs at a fraction of full speed. The framework now
+> defaults to Release if you omit `CMAKE_BUILD_TYPE`, but pass it explicitly to be
+> sure.
 
 ## Controls
 
