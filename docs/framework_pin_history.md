@@ -1,3 +1,22 @@
+# Framework pin history (historical)
+
+The `psxrecomp` framework used to be pinned via this hand-maintained
+`psxrecomp-v4.pin` file. That mechanism has been **replaced by a real git
+submodule**: the framework commit this repo builds against is now recorded as
+the `psxrecomp-v4` submodule pointer (see `.gitmodules`). Bump it the normal
+way:
+
+    git -C psxrecomp-v4 fetch && git -C psxrecomp-v4 checkout <new-sha>
+    git add psxrecomp-v4 && git commit -m "bump psxrecomp-v4 to <new-sha>"
+
+At migration time the pointer moved to master `d2006e0`, superseding the pin
+recorded below.
+
+The notes below are kept only as a historical changelog of which framework
+build each release was cut against.
+
+---
+
 # 2026-07-10 (v0.0.2): pin bumped to master e5a958f — the CRITICAL
 # release-install boot fix: the dirty-RAM text-image guard now arms from the
 # boot EXE extracted off the user's DISC image when no local EXE file exists
