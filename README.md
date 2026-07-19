@@ -1,5 +1,11 @@
 # TsumuLightRecomp
 
+> _Tsumu Light Recompiled is a byproduct of developing **psxrecomp**, the
+> static-recompilation framework it's built on. Driving the framework forward is
+> the priority, so my time for this particular title is limited — I ask for your
+> patience with its continued development, and community contributions are warmly
+> welcomed._
+
 Tsumu Light (Japan, SLPS-02253) statically recompiled to a native PC executable
 with [PSXRecomp](https://github.com/mstan/psxrecomp) — the same framework behind
 [MegaManX6Recomp](https://github.com/mstan/MegaManX6Recomp) and
