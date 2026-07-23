@@ -26,7 +26,7 @@ build each release was cut against.
 # v0.0.1's pin (864ac40) contained it, so v0.0.1 was at risk on user machines.
 # NB: Tsumu's translation layer leans on this guard (byte-compare +
 # dirty_ram_text_bless), so arming it on END-USER installs matters doubly here.
-# Also inherited since 864ac40: L3/R3 stick-click binds (f1afc7f), RmlUi
+# Also inherited since 864ac40: L3/R3 stick-click binds (f1afc7f), the former
 # launcher restored on master (f36b458), MMX6 mirrored-UV rect fix, MMX4/5
 # true-wide merges.
 #
