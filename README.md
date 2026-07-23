@@ -56,9 +56,9 @@ Important files:
 - `game.toml` — runtime / recompiler / controller / localization config.
 - `translations/tsumu.toml` — the English translation data.
 - `seeds/` — Ghidra-derived function starts and game-specific seed data.
-- `psxrecomp-v4.pin` — framework commit this project is known-good against.
+- `docs/framework_pin_history.md` — framework pin and compatibility history.
 - `DISC.md` — source-disc identity and verification notes.
-- `launcher_art/img/disc.png` — the cover art shown in the launcher.
+- `recomp/launcher/boxart.tga` — the cover art shown in the launcher.
 
 ## Status
 
@@ -130,7 +130,7 @@ Requirements:
 # Regenerate generated/SLPS_022.53_{full,dispatch}.c from the disc/EXE:
 ../psxrecomp/recompiler/build/psxrecomp-game.exe --config game.toml
 
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DPSX_LAUNCHER=ON
+cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j8
 ./build/Tsumu_Light_Recompiled.exe
 ```
