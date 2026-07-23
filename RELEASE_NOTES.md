@@ -30,7 +30,7 @@ framework.
   the memory-card save/format/quit dialogs. Selectable in the launcher
   (Settings → Localization: **English** default, or **Default** for the
   untranslated original).
-- **Integrated launcher** (RmlUi) for video, audio, controller, memory-card, and
+- **Integrated Dear ImGui launcher** for video, audio, controller, memory-card, and
   localization settings. Digital-pad only (Tsumu is a digital game), so the
   pad-mode picker is hidden.
 - **Controller support** — keyboard or a DualShock/DualSense, chosen in the
